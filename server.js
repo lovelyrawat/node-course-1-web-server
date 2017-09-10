@@ -62,6 +62,7 @@ app.get('/about', (req, res) => {
 
 app.get('/projects', (req, res) => {
   console.log("Project Info");
+  console.log("new Project Info");
   res.render('projects.hbs', {
     pageTitle: 'Projects'
   });
